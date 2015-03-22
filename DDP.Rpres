@@ -1,0 +1,45 @@
+The risk of the high blood pressure
+========================================================
+author: Joey Wang
+date: 22 Mar 2015
+font-import: http://fonts.googleapis.com/css?family=Risque
+font-family: 'Risque'
+
+Damage from high blood pressure
+========================================================
+
+High blood pressure (hypertension) can quietly damage your body for years before symptoms develop. Left uncontrolled, you may wind up with a disability, a poor quality of life or even a fatal heart attack.
+
+- Damage to your arteries
+- Damage to your heart
+- Damage to your brain
+- Damage to your kidneys
+
+Blood Pressure Levels Vary by Age
+========================================================
+
+```{r,echo=FALSE}
+mydata <- read.table("Age.csv", header=TRUE, sep=",")
+mydata
+```
+
+Blood Pressure Levels Vary by Race and Ethnicity
+========================================================
+
+```{r, echo=FALSE}
+mydata <- read.table("Race.csv", header=TRUE, sep=",")
+plot(mydata$Race.of.Ethnic.Group,mydata$Women.Percentage)
+```
+***
+```{r,echo=FALSE}
+plot(mydata$Race.of.Ethnic.Group,mydata$Men.Percentage)
+```
+
+========================================================
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1 align = "center">Thank you!</h1>
